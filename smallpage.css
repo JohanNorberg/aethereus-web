@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+	background-color:rgb(20,14,10);
+	margin-top:40px;
+	font-size: 11pt;
+	font-style:normal;
+	font-weight:normal;
+	font-family:Verdana, Geneva, sans-serif;
+	color: #FFF;
+	Overflow-x:hidden;
+}
+
+h3 
+{ 
+	font-size: 16pt;
+	font-style:normal;
+	font-weight:normal;
+	font-family:Verdana, Geneva, sans-serif;
+	color:rgb(250,214,128);
+	margin-top:-1px;
+	text-align:center;
+}
+
+h1 
+{ 
+	font-size: 14pt;
+	font-style:normal;
+	font-weight:normal;
+	font-family:Verdana, Geneva, sans-serif;
+	color:rgb(250,214,128);
+	margin-top:-1px;
+}
+
+#AboutBullet
+{
+  width: 618px;
+  height:192px;
+  margin-left: auto ;
+  margin-right: auto ;
+  background-image:url(images/minipage/aboutbk.gif);
+  background-repeat:no-repeat;
+	
+}
+
+#PreOrderHeader
+{
+  width: 618px;
+  height:271px;
+  margin-left: auto ;
+  margin-right: auto ;
+  background-image:url(images/preorder-image.png);
+  background-repeat:no-repeat;
+	
+}
+
+#AboutBullet #TextA
+{
+	width:372px;
+	height:144px;
+	position:inherit;
+	margin-right:33px;
+	margin-top:24px;
+	float:right;	
+}
+
+#AboutBullet #ImgA
+{
+	width:177px;
+	height:192px;
+	float:left;
+	margin-left:15px;
+	margin-top:0px;
+}
+
+
+ #contentMini
+ {
+	 width: 550px ;
+  margin-left: auto ;
+  margin-right: auto ;
+
+	 
+ }
+ #content  
+ {
+	  width: 700px ;
+  margin-left: auto ;
+  margin-right: auto ;
+	 background-color:rgb(51,51,51);
+	 -moz-border-radius: 15px;
+	border-radius: 15px;
+	padding:20px;
+	 
+ }

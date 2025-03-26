@@ -1,0 +1,465 @@
+@charset "utf-8";
+/* CSS Document */
+
+#HeaderLogoTEMPUSE {
+	float:left; 
+   	position:fixed;
+	margin: 0px auto;
+	/*width:498px;
+	height:266px;
+	
+	background-image:url('images/headerdelar/aethereus-logo.png');
+	background-repeat:no-repeat;
+	background-position:left;*/
+}
+#HeaderLogoBackgrondBK {
+	
+	position:absolute;
+   	left: 50%;
+ 	margin-left: -769px;
+	width:1538px;
+    height: 498px;
+	background-image:url('images/headerdelar/header.png');
+	background-repeat:no-repeat;
+	background-position:center:top; 
+	overflow: hidden;
+	/*margin-top:-750px;*/
+		z-index: 100;
+}
+
+#HeaderLogoBackgrondBackStrocke
+		{
+			 position: absolute;
+			 width:100%;
+			 top:52px;
+   			 /*left: 50%;*/
+			 /*background:#00FF00;*/
+			 background:url(images/headerdelar/Header-BackStrocke.png);
+			 background-position:center;
+			 background-repeat:no-repeat; 
+			 height: 39px;
+			 z-index: 99;
+		}
+
+#HeaderLogoBackgrond {
+	
+	position:absolute;
+   	left: 50%;
+ 	margin-left: -486px;
+	width:972px;
+    height: 498px;
+	background-image:url('images/headerdelar/header.png');
+	background-repeat:no-repeat;
+	background-position:center:top; 
+	overflow: hidden;
+	/*margin-top:-750px;*/
+		z-index: 100;
+}
+
+#HeaderLogoBackgrond #logoimg {
+	float:left;
+	padding-left:0px;
+	position:static;
+
+}
+#HeaderLogoBackgrond #preorder {
+	float:right;
+	padding-right:0px;
+	padding-top: 6px;
+	position:static;
+
+}
+
+
+
+	#BlackFadeLeft 
+	{
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	width: 363px;
+	height: 680px;
+	background:url(images/Slider/slider-image-shadow-Right.png);
+	background-repeat:repeat-y;
+	overflow:hidden;
+
+	z-index: 98;
+		}
+		
+	#BlackFadeRight
+	{
+	position: absolute;
+	top: 70px;
+	right:0px;
+	width: 363px;
+	height: 680px;
+	background:url(images/Slider/slider-image-shadow-left.png);
+	background-repeat:repeat-y;
+	overflow:hidden;
+
+	z-index: 98;
+		}
+
+	#ArrowLeft 
+	{
+			position: absolute;
+			top: 360px;
+			left: 0px;
+			width: 103px;
+			height: 103px;
+		
+			z-index: 113;
+	}
+	#ArrowLeftSmall 
+	{
+			position:absolute;
+			left: 50%;
+			margin-left: -100px;
+			top: 715px;
+			width: 20px;
+			height: 22px;
+			z-index: 100;
+	}
+	
+	#ArrowRightSmall 
+	{
+			position:absolute;
+			left: 50%;
+			margin-left: 138px;
+			top: 715px;
+			width: 20px;
+			height: 22px;
+			z-index: 100;
+	}
+		
+			#ArrowRight
+		{
+			position: absolute;
+			top: 360px;
+			right:0px;
+			width: 103px;
+			height: 103px;
+		
+			z-index: 114;
+		}
+		
+		#LoopBkBorder
+		{
+			 position: absolute;
+			 width:100%;
+			 top:571px;
+   			 /*left: 50%;*/
+			 /*background:#00FF00;*/
+			 background:url(images/ImageSlider-border.png);
+			 background-position:center;
+			 background-repeat:repeat-x; 
+			 height: 179px;
+			 z-index: 99;
+		}
+			#BottomBtn
+		{
+			 position: absolute;
+			 width:100%;
+			 top:748px;
+   			 /*left: 50%;*/
+			 /*background:#00FF00;*/
+			 background:url(images/LinkList_Background.jpg);
+			 background-position:center;
+			 background-repeat:no-repeat;
+			 height: 260px;
+			  text-align: center;
+			
+			z-index: 98;
+		}
+		
+			#BottomTwitter
+		{
+			 position: absolute;
+			 width: 290px;
+			  height:400px;
+			  overflow:hidden;
+			  background:rgb(19,14,10);
+		
+			 top:900px;
+   			 right:50%;
+			
+			  margin-right:175px;
+			z-index: 98;
+				-moz-border-radius: 15px;
+			border-radius: 15px;
+			overflow:hidden;
+			
+		}
+		
+			#BottomNEWS
+		{
+	position: absolute;
+	width: 290px;
+	height:380px;
+	top:900px;
+
+	 right:50%;
+	margin-right:-145px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 10pt;
+	color:#FFF;
+	background:rgb(19,14,10);
+	padding: 10px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	overflow:hidden;
+	z-index: 98;
+		}
+			#BottomFollow
+		{
+			 position: absolute;
+			 width: 290px;
+			 height:380px;
+			 top:900px;
+   			 right:50%;
+			
+			  margin-right:-465px;
+		
+			
+			 
+			font-family:Verdana, Geneva, sans-serif;
+			font-size: 10pt;
+			color:#FFF;
+			  background:rgb(19,14,10);
+			padding: 10px;
+			
+			z-index: 98;
+			-moz-border-radius: 15px;
+			border-radius: 15px;
+			overflow:hidden;
+			
+		}
+		img.fade:hover {
+opacity: 1 !important;
+-moz-opacity: 1 !important;
+-webkit-transition: all 0.2s ease-in;
+-moz-transition: all 0.2s ease-in;
+transition: all 0.2s ease;
+}
+
+		
+			#BottomBk
+		{
+			 position: absolute;
+			 width:100%;
+			 top:748px;
+   			 /*left: 50%;*/
+			 /*background:#00FF00;*/
+			 alignment-adjust:central;
+			 background:url(images/Background-Brown.png);
+			 background-position:center;
+			 background-repeat:repeat-y;
+			 height: 705px;
+			z-index: 97;
+		}
+		
+		#ThreegatesLogo
+		{
+			 position: absolute;
+			 width:768px;
+			 top:1275px;
+   			 right:50%;
+			 margin-right:-384px;
+			 /*background:#00FF00;*/
+			 height: 179px;
+			z-index: 98;
+		}
+			#BottomText
+		{
+			 position: absolute;
+			 width:530px;
+			 top:1453px;
+			 right:50%;
+			 margin-right:-260px;
+			 padding-top: 20px;
+			 text-align:center;
+			 font-family:Arial,Helvetica,sans-serif;
+			 font-size:8pt;
+			 color:#666666;
+			 
+   			 /*left: 50%;*/
+		
+			 height: 75px;
+			
+		}
+		
+		    
+     	#jstwitter {
+			width: 270px;
+			 height:365px;
+			
+			font-family:Verdana, Geneva, sans-serif;
+			font-size: 10pt;
+			font-style:normal;
+			color:#FFF;
+			padding: 10px;
+			overflow:hidden;
+		}
+		
+		#jstwitter .tweet {
+			margin: 0 auto 15px auto;
+			padding: 0 0 15px 0;
+			border-bottom: 1px solid rgb(135,117,69);
+		}
+		
+		#jstwitter .tweet a {
+			text-decoration: none;
+			color:rgb(250,183,128);
+		}
+
+		#jstwitter .tweet a:hover {
+			text-decoration: underline;
+		}
+		
+		#jstwitter .tweet .time {
+			font-size: 8pt;
+			font-style: italic;
+			color: #666666;
+		}
+		
+		
+		#htmlcaptiontest1Style
+		{
+			width:476px;height:342px;display:inline-block;cursor:pointer;border-radius:0px; background:url(images/Slider/Bulletpoints/SliderImage-BulletPoint01.png) no-repeat 0 0;
+		}
+		#htmlcaptiontest1Style:hover 
+		{
+			
+			background:url(images/Slider/Bulletpoints/SliderImage-BulletPoint01-Mover.png) no-repeat 0 0;
+		}
+		
+		#htmlcaptiontest2Style
+		{
+			width:476px;height:201px;display:inline-block;background:url(images/Slider/Bulletpoints/SliderImage-BulletPoint02.png) no-repeat 0 0;cursor:pointer;border-radius:0px;
+		}
+		#htmlcaptiontest2Style:hover 
+		{
+			
+			background:url(images/Slider/Bulletpoints/SliderImage-BulletPoint02-Mover.png) no-repeat 0 0;
+		}
+		
+		#htmlcaptiontest3Style
+		{
+			
+			width:476px;height:265px;display:inline-block;background:url(images/Slider/Bulletpoints/SliderImage-BulletPoint03.png) no-repeat 0 0;cursor:pointer;border-radius:0px;
+		}
+		#htmlcaptiontest3Style:hover 
+		{
+		
+			background:url(images/Slider/Bulletpoints/SliderImage-BulletPoint03-Mover.png) no-repeat 0 0;
+			
+		}
+		
+		#htmlcaptiontest4Style
+		{
+			
+			width:476px;height:342px;display:inline-block;background:url(images/Slider/Bulletpoints/SliderImage-BulletPoint04.png) no-repeat 0 0;cursor:pointer;border-radius:0px;
+		}
+		#htmlcaptiontest4Style:hover 
+		{
+			background:url(images/Slider/Bulletpoints/SliderImage-BulletPoint04-Mover.png) no-repeat 0 0;
+		}
+		#htmlcaptiontest5Style
+		{
+			
+			width:476px;height:235px;display:inline-block;background:url(images/Slider/Bulletpoints/SliderImage-BulletPoint05.png) no-repeat 0 0;cursor:pointer;border-radius:0px;
+		}
+		#htmlcaptiontest5Style:hover 
+		{
+			background:url(images/Slider/Bulletpoints/SliderImage-BulletPoint05-Mover.png) no-repeat 0 0;
+		}
+		
+		#htmlcaptiontest6Style
+		{
+			
+			width:476px;height:218px;display:inline-block;background:url(images/Slider/Bulletpoints/SliderImage-BulletPoint06.png) no-repeat 0 0;cursor:pointer;border-radius:0px;
+		}
+		#htmlcaptiontest6Style:hover 
+		{
+			background:url(images/Slider/Bulletpoints/SliderImage-BulletPoint06-Mover.png) no-repeat 0 0;
+		}
+		
+		#htmlcaptiontest7Style
+		{
+			
+			width:476px;height:283px;display:inline-block;background:url(images/Slider/Bulletpoints/SliderImage-BulletPoint08.png) no-repeat 0 0;cursor:pointer;border-radius:0px;
+		}
+		#htmlcaptiontest7Style:hover 
+		{
+			background:url(images/Slider/Bulletpoints/SliderImage-BulletPoint08-Mover.png) no-repeat 0 0;
+		}
+		
+		
+	
+ 
+
+body {
+	background-color:#000;
+	Overflow-x:hidden;
+	
+	
+}
+h1 
+{ 
+	font-size: 16pt;
+	font-weight:normal;
+	font-style:normal;
+	font-family:Verdana, Geneva, sans-serif;
+	color:rgb(250,214,128);
+	margin-top:-1px;
+}
+
+h2
+{
+	color:rgb(250,214,128);
+	font-size: 10pt;
+	font-weight:normal;
+}
+
+:link {
+	color: rgb(250,183,128);
+	text-decoration:none;
+}
+
+:visited {
+	color: rgb(250,183,128);
+	
+}
+
+:link:hover {
+	text-decoration: underline;
+}
+
+#Brakeline
+{
+	border-bottom: 1px solid rgb(135,117,69);
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+
+#BottomYellow {
+	color: rgb(250,183,128);
+	font-weight:bold;
+	font-size:11pt;
+}
+#BottomYellow:link {
+	color: rgb(250,183,128);
+	font-weight:bold;
+	font-size:11pt;
+	text-decoration:none;
+}
+
+#BottomYellow:visited {
+	color: rgb(250,183,128);
+	font-weight:bold;
+	font-size:11pt;
+}
+#BottomYellow:hover {
+	text-decoration: underline;
+}
